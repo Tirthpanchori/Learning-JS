@@ -27,9 +27,18 @@ const obj2 = {c : 1, d : 2}
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
-console.log(user.hasOwnProperty('name'));
+// console.log(user.hasOwnProperty('name'));
 
+const course = {
+    coursename: 'learning js',
+    cost: 0,
+    faculty: 'hitesh'
+}
+
+const {faculty: sir} = course
+// console.log(faculty);
+console.log(sir);
